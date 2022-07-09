@@ -1,9 +1,8 @@
 package com.example.clinica.controller;
 
-
-import com.example.clinica.dao.impl.DomicilioDaoH2;
 import com.example.clinica.model.Domicilio;
 import com.example.clinica.service.DomicilioService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,8 +12,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/domicilios")
 public class DomicilioController {
-
-    private DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
+    @Autowired
+    private DomicilioService domicilioService;
 
     @PostMapping
     public ResponseEntity<Domicilio> registrar(@RequestBody Domicilio domicilio){
@@ -46,9 +45,9 @@ public class DomicilioController {
         ResponseEntity<Domicilio> response;
 
         if (domicilio.getId() != null && domicilioService.buscar(domicilio.getId()) != null) {
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-        } else {
             response=ResponseEntity.ok(domicilioService.actualizar(domicilio));
+        } else {
+            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         return response;
     }

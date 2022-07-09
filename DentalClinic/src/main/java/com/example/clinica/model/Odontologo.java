@@ -1,7 +1,10 @@
 package com.example.clinica.model;
-
+import javax.persistence.*;
+@Entity
+@Table(name = "odontologos")
 public class Odontologo {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer numeroMatricula;
     private String nombre;

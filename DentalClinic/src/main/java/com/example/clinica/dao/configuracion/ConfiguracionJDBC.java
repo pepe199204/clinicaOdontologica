@@ -19,7 +19,7 @@ public class ConfiguracionJDBC {
 
     public ConfiguracionJDBC() {
         this.jdbcDriver = "org.h2.Driver";
-        this.dbUrl = "jdbc:h2:~/db_clinica;INIT=RUNSCRIPT FROM 'create.sql'";
+        this.dbUrl = "jdbc:h2:~/db_clinica_Felipe_Mendoza_Pelaez;INIT=RUNSCRIPT FROM 'create.sql'";
         this.nombreUsuario = "sa";
         this.contrasenaUsuario = "sa";
     }

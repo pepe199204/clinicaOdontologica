@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732a6d8b-a4cc-49e9-999f-9b89d2e2fe58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DentalClinic/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DentalClinic/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DentalClinic/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DentalClinic/src/main/java/com/example/clinica/dao/configuracion/ConfiguracionJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/DentalClinic/src/main/java/com/example/clinica/dao/configuracion/ConfiguracionJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DentalClinic/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DentalClinic/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DentalClinic/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DentalClinic/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DentalClinic/target/classes/com/example/clinica/dao/configuracion/ConfiguracionJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/DentalClinic/target/classes/com/example/clinica/dao/configuracion/ConfiguracionJDBC.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +30,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Volumes/Docs/PIPE/STUDY/CERTIFIED TECH DEVELOPER/CAREER/CLASSES/5. FIFTH BIMESTER/BACKEND/FINAL/TpIntegrador"
+    "last_opened_file_path": "/Volumes/Docs/PIPE/STUDY/CERTIFIED TECH DEVELOPER/CAREER/CLASSES/5. FIFTH BIMESTER/BACKEND/FINAL/TpIntegrador",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

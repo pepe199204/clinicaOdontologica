@@ -28,10 +28,18 @@ window.addEventListener('load', function () {
                                 ' type="button" class="btn btn-labeled btn-danger" style="background-color: #dc3545;"><span class="btn-label"><i class="fa fa-trash"></i></span></button>';
 
             //como ultima columna el boton eliminar
+            // let updateButton = '<button' +
+            //                     ' id=' + '\"' + 'btn_id_' + odontologo.id + '\"' +
+            //                     ' onclick="findBy('+odontologo.id+')"' +
+            //                     ' type="button" class="btn btn-labeled btn-info" style="background-color: #17a2b8;"><span class="btn-label"><i class="fa fa-refresh"></i></span></button>';
+
+  //           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#updateModal">
+  //   Launch demo modal
+  // </button>
             let updateButton = '<button' +
                                 ' id=' + '\"' + 'btn_id_' + odontologo.id + '\"' +
                                 ' onclick="findBy('+odontologo.id+')"' +
-                                ' type="button" class="btn btn-labeled btn-info" style="background-color: #17a2b8;"><span class="btn-label"><i class="fa fa-refresh"></i></span></button>';
+                                ' type="button" data-toggle="modal" data-target="#updateModal" class="btn btn-labeled btn-info" style="background-color: #17a2b8;"><span class="btn-label"><i class="fa fa-refresh"></i></span></button>';
             //
             //luego los datos del odontologo
             odontologoRow.innerHTML =

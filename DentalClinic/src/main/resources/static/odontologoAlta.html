@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Alta Odontologo</title>
+  <title>Alta Odontólogo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -10,17 +10,25 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/js/post_odontologo.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <div class="container">
   <ul class="nav nav-pills">
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="/odontologoList.html">Listar Odontólogos</a>
+    </li> -->
     <li class="nav-item">
-      <a class="nav-link" href="/odontologoList.html">Listar Odontologos</a>
-    </li>
+      <a class="nav-link" href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor" class="bi bi-arrow-left-square" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+        </svg>
+        Volver al menú</a>
+  </li>
   </ul>
   <div class="row">
-    <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
-      <h3>Agregar Odontologo</h3>
+    <div class="col-md-auto" style="padding:10px; border-radius:3px">
+      <h3>Agregar Odontólogo</h3>
       <form id="add_new_odontologo">
         <div class="form-group">
           <label class="control-label" for="nombre">Nombre:</label>
@@ -43,7 +51,7 @@
         </div>
 
 
-        <button type="submit" class="btn btn-danger"
+        <button type="submit" class="btn btn-primary"
                 id="btn-add-new-odontologo">Guardar</button>
       </form>
       <div id="response" style="display:none; margin-top:10px">
